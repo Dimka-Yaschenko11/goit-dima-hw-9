@@ -1,0 +1,65 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.one {
+  position: relative;
+  left: 200px;
+  background-color: aqua;
+}
+
+.two {
+  background-color: blueviolet;
+  position: relative;
+  top: -80px;
+  left: 300px;
+  z-index: 1;
+}
+
+.three {
+  background-color: blanchedalmond;
+  position: relative;
+  top: -160px;
+  left: 400px;
+}
+
+.menu {
+  background-color: blanchedalmond;
+  width: 300px;
+  height: 400px;
+  transform: translateX(-280px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 400ms linear;
+}
+
+.menu:hover {
+  transform: translateX(0px);
+}
+
+.menu-item {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.menu-list {
+  padding-top: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  color: red;
+}
+
+.menu-text {
+  transform: rotate(90deg);
+}
+
+
